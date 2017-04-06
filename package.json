@@ -4,7 +4,9 @@
   "description": "Autosize textarea for Vue 2 with proper v-model bindings",
   "main": "src/AutosizeTextarea.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"compile": "babel --presets es2015 -d dist/ src/",
+	"prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
@@ -15,6 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "autosize": "^3.0.20",
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
     "vue": "^2.2.6"
   }
 }
