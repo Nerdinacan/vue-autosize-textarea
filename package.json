@@ -1,0 +1,21 @@
+{
+  "name": "vue-autosize-textarea",
+  "version": "0.0.1",
+  "description": "Autosize textarea for Vue 2 with proper v-model bindings",
+  "main": "src/AutosizeTextarea.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdinacan/vue-autosize-textarea.git"
+  },
+  "keywords": [],
+  "author": "Mason Houtz <nerdinacan@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "autosize": "^3.0.20",
+    "vue": "^2.2.6"
+  },
+  "devDependencies": {}
+}
