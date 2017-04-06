@@ -1,6 +1,6 @@
 import autosize from 'autosize';
 
-export default AutosizeTextarea = {
+export const AutosizeTextarea = {
 
 	props: ['value'],
 
