@@ -13,9 +13,8 @@
   "keywords": [],
   "author": "Mason Houtz <nerdinacan@gmail.com>",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "autosize": "^3.0.20",
     "vue": "^2.2.6"
-  },
-  "devDependencies": {}
+  }
 }
