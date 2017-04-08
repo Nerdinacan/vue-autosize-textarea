@@ -15,7 +15,13 @@ var AutosizeTextarea = exports.AutosizeTextarea = {
 
 	props: ['value'],
 
-	template: '<textarea ref="textarea" @input="updateValue($event.target.value)">{{ value }}</textarea>',
+	template: '<textarea v-model="currentValue" @input="updateValue($event.target.value)"></textarea>',
+
+	computed: {
+		currentValue: function currentValue() {
+			return this.value;
+		}
+	},
 
 	methods: {
 		updateValue: function updateValue(val) {
